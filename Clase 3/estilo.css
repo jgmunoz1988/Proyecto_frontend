@@ -33,7 +33,7 @@ background-position: center;
     .history { 
     font-style: normal; 
     font-family: 'Open Sans', sans-serif;                    
-    color: rgb(52, 156, 160);
+    color: rgb(0, 0, 0);
     font-size-adjust: none;
     font-style: italic;
     font-weight: 700;
@@ -47,27 +47,38 @@ background-position: center;
     text-decoration: solid;
     color: rgb(0, 0, 0);
     border: yellowgreen;
-    font-weight: 100;
+    font-weight: 400;
     font-size:x-large;
     font-style:normal;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     
     }
 
     ol{
     background-color: aliceblue;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Open Sans', sans-serif;
     font-size: medium;
     font-weight: 400;
     font-style: normal;
     border-radius: 5px;
+    color: black;
+    text-decoration: solid;
     }
 
     ul{
-        background-color: aliceblue;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: medium;
-        font-weight: 400;
-        font-style: normal;
-        border-radius: 5px;
-        }
+    background-color: aliceblue;
+    font-family:'Open Sans', sans-serif;
+    font-size: medium;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 5px;
+    color: black;
+    text-decoration: solid;
+    }
+    
+    footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aliceblue;
+    text-align: center;
+    text-decoration: solid;
+    }
