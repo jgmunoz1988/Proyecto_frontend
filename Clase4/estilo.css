@@ -13,14 +13,10 @@ font-size: 2rem;
 
 body {
 background-image:url(https://images.pexels.com/photos/3893348/pexels-photo-3893348.jpeg?cs=srgb&dl=pexels-anna-3893348.jpg&fm=jpg);
-background-position: center;
 background-repeat: no-repeat;
 background-size:cover;
 background-color:rgb(209, 18, 18);
 }
-
-
-
 .menu_superior {
 text-decoration: solid;
 text-align:center;
