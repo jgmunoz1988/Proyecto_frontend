@@ -19,15 +19,14 @@ background-color:rgb(209, 18, 18);
 }
 .menu_superior {
 text-decoration: solid;
-text-align:center;
 background-color: aliceblue;
 opacity: 0.8;
 padding: 5px;
+display: flex;
 }
 
 .menu_superior ul{
 padding: 5px;
-display: inline-flex;
 }
 
 .menu_superior li{
@@ -38,7 +37,6 @@ font-family: 'Open Sans', sans-serif;
 letter-spacing: 2px;
 padding: 0px 15px;
 border-color: black;
-display:inline;
 }
 
 .img_header {
