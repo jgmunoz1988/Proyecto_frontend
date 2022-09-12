@@ -6,8 +6,8 @@ padding: 0;
 box-sizing: border-box;
 text-decoration: none;
 }
-
-html {
+/*---------------------------------------- CSS INDEX ---------------------------------------------*/
+html{
 font-size: 2rem;
 }
 
@@ -17,16 +17,18 @@ background-repeat: no-repeat;
 background-size:cover;
 background-color:rgb(209, 18, 18);
 }
-.menu_superior {
-text-decoration: solid;
+.menu_superior{
 background-color: aliceblue;
 opacity: 0.8;
-padding: 5px;
-display: flex;
+padding: 2px;
+text-align: center;
 }
 
 .menu_superior ul{
-padding: 5px;
+padding: 2px;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
 }
 
 .menu_superior li{
@@ -37,6 +39,7 @@ font-family: 'Open Sans', sans-serif;
 letter-spacing: 2px;
 padding: 0px 15px;
 border-color: black;
+display: block;
 }
 
 .img_header {
@@ -44,7 +47,7 @@ background-color: rgb(209, 18, 18);
 padding: 10px 10px;
 }
 
-.img_header h1 {
+.img_header h1{
 text-align: center;
 color: red;
 background-color: aliceblue;
@@ -54,7 +57,7 @@ font-weight:700;
 font-style: italic;
 }
 
-.img_header span {
+.img_header span{
 color: rgb(245, 245, 245); 
 background-color: rgb(0, 179, 255);
 }
@@ -96,7 +99,7 @@ text-align: center;
 margin: 2rem;
 }
 
-.seccion_beneficios p {
+.seccion_beneficios p{
 background-color:aliceblue;
 border-radius: 5px;
 margin-left: 1vw;
@@ -116,7 +119,7 @@ padding: 10px 0px 10px 50px;
 margin: 3vw;
 }
 
-.seccion_beneficios li {
+.seccion_beneficios li{
 font-family:'Open Sans', sans-serif;
 font-style: normal;
 font-size: 0.8rem;
@@ -124,7 +127,7 @@ color: black;
 text-decoration: solid;
 }
 
-.seccion_pasos p {
+.seccion_pasos p{
 background-color:aliceblue;
 margin-left: 1vw;
 border-radius: 5px;
@@ -164,6 +167,6 @@ color: aliceblue;
 font-size: 30px;
 text-align: center;
 text-decoration: solid;
-display:block;
+display:;
 background-color: rgb(209, 18, 18);
 }
