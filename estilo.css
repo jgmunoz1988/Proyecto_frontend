@@ -172,7 +172,7 @@ background-color: rgb(209, 18, 18);
 }
 
 /*------------------------------------<( CSS FORMULARIO )>------------------------------*/
-body .body_formulario{
+.body_formulario{
 
 
 }
@@ -180,9 +180,10 @@ body .body_formulario{
 .formulario {
     text-align: center;
     margin-top: 5rem;
+    
 }
 
-.formulario2{
+.formulario{
     display: inline-block;
     justify-content: center;
     width: 600px;
@@ -191,8 +192,7 @@ body .body_formulario{
     opacity: 0.7;
     color: black;
     border-radius: 1rem;
-
-    
-    
 }
+
+
 
