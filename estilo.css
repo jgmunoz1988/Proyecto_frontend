@@ -172,18 +172,20 @@ background-color: rgb(209, 18, 18);
 }
 
 /*------------------------------------<( CSS FORMULARIO )>------------------------------*/
-.body_formulario{
 
+.body_form {
+text-align: center;
 
 }
 
-.formulario {
+.main_form {
+    margin: 90%;
     text-align: center;
     margin-top: 5rem;
-    
+
 }
 
-.formulario{
+.form_container {
     display: inline-block;
     justify-content: center;
     width: 600px;
