@@ -9,15 +9,15 @@
 </head>
 <body class="body_form">
 
-<header class="title_form">
+<header class="title_container_form">
 <h1>Completa tus Datos</h1>
 </header>
 
 <main class="main_form">
 
     <form class="form_container" action="#">
-        
-        <label for="Nombre"> <small>(*)</small> Nombre: </label>
+
+        <label  for="Nombre"> <small>(*)</small> Nombre: </label>
         <input class="input_form" type="text" name="Nombre" id="Nombre" placeholder="Escribe tu Nombre" required/> 
         
         <label for="Apellido"><small>(*)</small> Apellido: </label>
@@ -35,7 +35,12 @@
         <label for="fecha_nacimiento"><small>(*)</small> Fecha de Nacimiento: </label>
         <input class="input_form" type="date" name="fecha_nacimiento" id="fecha_nacimiento"required/>
 
-    </form>
+
+
+        
+    <p><strong>(*) Campos Obligatórios </strong></p>
+        
+</form>
     
     <div class="footer_form">
         <input class="terms_conditions" type="checkbox" name="terms_conditions" id="terms_conditions" required/><label for="terms_conditions">"Acepto términos y condiciones"</label>

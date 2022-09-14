@@ -171,62 +171,46 @@ display:block;
 background-color: rgb(209, 18, 18);
 }
 
-/*------------------------------------<( CSS FORMULARIO )>------------------------------*/
+/*------------------------<( CSS_FORM )>------------------------------------*/
+
 
 .body_form {
-    
+    padding: 20vh 10% ;
+
 }
 
-
-.title_form h1{
+.title_container_form h1{
     text-align: center;
-    margin-bottom: 8vh;
+    padding: 5vh;
 }
 
 .main_form {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    opacity: 0.8;
-    color: black;
 
 }
 
 .form_container {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1vh;
-    width: 50%;
-    padding: 1rem;
-    background-color: white;
+    flex-direction:column;
+    background-color: antiquewhite;
     color: black;
-    border-radius: 1rem;
-
+    gap: 5px;
 }
 
 .form_container label{
-    font-size: 3vh;
-    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 2vw;
 }
-
 .input_form {
-    font-size: 2vh;
-    border: none;
-    color: green;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+
 }
 
-.form_container small {
-    font-size: 15px;
-}
-
-.footer_form{
+.form_container p{
     text-align: center;
-    color: black;
 }
-
-
-
-
-
-
