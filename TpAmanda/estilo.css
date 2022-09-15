@@ -201,7 +201,7 @@ background-color: rgb(209, 18, 18);
     color: black;
     gap: 1rem;
     width: 50vw ;
-    height: 120vh;
+    height: 160vh;
     font-size: 2vw;
     opacity: 0.8;
     border-radius: 20px;
@@ -226,6 +226,10 @@ background-color: rgb(209, 18, 18);
     padding-left: 2vw;
     font-size: 4vh;
     color: black;
+}
+
+.form_container p{
+    text-overflow: ellipsis;
 }
 
 .form_container small {
