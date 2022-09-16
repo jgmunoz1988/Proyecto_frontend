@@ -263,72 +263,80 @@ background-color: rgb(209, 18, 18);
 
             .body_form{
                 background-color: brown;
+                background-size: 300%;
             }
             
             .main_form {
-                display: none;
+                flex-direction: block;
+                text-align: center;
                 background-color: blue;
             
             }
 
+            .title_container_form h1 {
+                text-align: center;
+                padding: 5px;
+                font-size: 20px;
+            }
 
             .form_container{
                 padding: 5px;
                 background-color: white;
                 color: black;
-                gap: 1px;
-                height: 80px;
-                width: 50px;
-                font-size: 1px;
+                gap: 5px;
+                height: 100%;
+                width: 100%;
+                font-size: 15px;
                 opacity: 0.8;
                 border-radius: 5px;
             }
 
             .input_form {
-                display: none;
+                display: block;
+                justify-items: center;
                 gap: 2px;
-                padding-left: 1px;
-                font-size: 1px;
+                padding-left: 5px;
+                font-size: 15px;
                 border: none;
                 border-bottom-style:groove;
             
             }
             
             .form_container label {
-                display: flex;
+                display: block;
                 flex-direction:row;
                 align-items: flex-end;
-                gap: 1px;
+                gap: 2px;
                 padding-left: 1px;
-                font-size: 2px;
+                font-size: 20px;
                 color: black;
             }
 
             .form_container small {
-                font-size: 1px;
-                color: black;
-            }
-            
-            .terms_scroll_form {
-                height: 10px;
-                overflow:auto;
-                overflow-y: scroll;
-                padding: 5px 0px 5px 0px;
-            }
-            
-            .terms_conditions_form {
                 font-size: 5px;
                 color: black;
             }
             
+            .terms_scroll_form {
+                height: 30px;
+                overflow:auto;
+                overflow-y: scroll;
+                padding: 10px 5px 5px 5px;
+            }
+            
+            .terms_conditions_form {
+                font-size: 15px;
+                color: black;
+            }
+            
             .terms_conditions, .checkbox_form {
-                width: 5px;
+                width: 10px;
             }
             
             .submit_form {
                 padding: 1px;
-                font-size: 2px;
-                border-radius: 5pxpx;
+                font-size: 15px;
+                border-radius: 5px;
                 background-color: green;
             }
 
