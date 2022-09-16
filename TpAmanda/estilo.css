@@ -195,9 +195,9 @@ background-color: rgb(209, 18, 18);
     background-color: white;
     color: black;
     gap: 1rem;
-    width: 50vw;
-    height: 300vh;
-    font-size: 2vw;
+    height: 300%;
+    width: 50%;
+    font-size: 20px;
     opacity: 0.8;
     border-radius: 20px;
 }
@@ -208,6 +208,7 @@ background-color: rgb(209, 18, 18);
     font-size: 1.5rem;
     border: none;
     border-bottom-style:groove;
+
 }
 
 .form_container label {
@@ -220,19 +221,16 @@ background-color: rgb(209, 18, 18);
     color: black;
 }
 
-.form_container, .term_scroll {
-    overflow:auto;
-    overflow-y: scroll;
-    padding: 20px 0px 20px 0px;
-}
-
 .form_container small {
     font-size: 20px;
     color: black;
 }
 
-.term_scroll {
-    height: 3rem;
+.terms_scroll_form {
+    height: 4rem;
+    overflow:auto;
+    overflow-y: scroll;
+    padding: 20px 0px 20px 0px;
 }
 
 .terms_conditions_form {
@@ -249,4 +247,28 @@ background-color: rgb(209, 18, 18);
     font-size: 2rem;
     border-radius: 20px;
     background-color: green;
+}
+
+/*--------------------------------------<(( Media Queries Formulario ))>---------------------------------*/
+
+    /*---------------------<(( Dispositivos de pantalla chica 360x640 pixels ))>-------------------------*/
+
+        @media (min-width: 360px) and (min-height:640) {
+
+            .body_form{
+                width: 360px;
+                height: 640px;
+            }
+            
+            .main_form {
+            
+            }
+
+
+            .form_container{
+            
+            }
+
+
+
 }
